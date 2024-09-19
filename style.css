@@ -78,6 +78,34 @@ body {
     gap: 70px;
 }
 
+.quote-text {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    margin: 12px;
+}
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    max-width: 950px;
+}
+
+.attribute {
+    font-size: 22px;
+    font-weight: 900;
+    text-align: right;
+}
+
+.quote-block {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: #E5E7EB;
+    padding: 128px 0;
+    margin: 64px 0;
+}
 
 img {
     flex-shrink: 0;
